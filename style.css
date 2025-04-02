@@ -52,6 +52,12 @@ padding: 0 24px;
 
 }
 
+ion-icon {
+    font-size: 24px;
+    color: white;
+}
+
+
 #profile {
     text-align: center;
     padding: 24px;
