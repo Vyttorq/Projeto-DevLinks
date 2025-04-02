@@ -164,28 +164,30 @@ ul li a:hover {
 
 #social-links {
     display: flex;
-    gap: 2px    ;
-    padding: 24px 0  ;
-    font-size: 24px;
-    justify-content: center;
+    justify-content: center; /* Centraliza os ícones */
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaçamento entre os ícones */
+    padding: 24px 0;
 }
 
-#social-links a{
-
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 16px ;
-border-radius: 50%;
-transition: background 0.2s;
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+    background: var(--highlight-color);
+    transition: background 0.2s;
 }
 
 #social-links a:hover {
-
-background: var(--highlight-color);
-
+    background: var(--highlight-color);
 }
 
+#social-links a ion-icon {
+    font-size: 40px; /* Tamanho maior para os ícones */
+    color: var(--text-color); /* Cor dos ícones (branco no escuro e preto no claro) */
+}
 #final {
     text-align: center;
     padding: 24px 0;
