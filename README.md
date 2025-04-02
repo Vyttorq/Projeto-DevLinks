@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://vyttorq.github.io/Projeto-DevLinks/Index.html" target="_blank">
+  <a href="https://projeto-dev-links-n8fi.vercel.app/" target="_blank">
     <strong>Acesse o projeto final CLICANDO AQUI</strong>
   </a>
 </p>
